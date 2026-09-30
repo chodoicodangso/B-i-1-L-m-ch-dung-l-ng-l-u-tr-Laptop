@@ -1,0 +1,31 @@
+Phần 1: Phân tích vấn đề
+Xác định phép tính hoặc bước quy đổi nào trong bảng trên đang sai.
+Giải thích nguyên nhân dẫn đến sai lệch kết quả.
+Phần 2: Hoàn thiện bài
+Tính lại tổng dung lượng sử dụng bằng cách quy đổi đúng đơn vị.
+Tính lại dung lượng còn trống của ổ cứng.
+Nếu lưu thêm 500 bài hát MP3 (5 MB/bài) thì ổ cứng còn đủ dung lượng hay không? Giải thích.
+—--------------------------------------------------
+1.1.Bước quy đổi 1000 ảnh bài giảng sai
+1.2.Nguyên nhân sai kết quả đến từ:
+-Lấy cột mốc 256 GB làm mốc suất phát mà không tính tới hệ điều hành và tệp cài đặt sẵn chiếm dung lượng 
+-Quy đổi sai 1000 ảnh x 4 MB/ảnh -> 4000mb/1024 khác 4GB
+2.3.Theo đề bài “vận dụng bảng quy đổi đơn vị lưu trữ theo hệ số 1024’’
+->Do đó 1000 ảnh bài giảng,1 bài giảng 4MB
+=>1000 x  4=4000MB 
+đổi theo 1024
+Sấp sỉ:3,9 gb
+=>Tổng dung lượng sử dụng
+3,9+40+100=143,9GB (1)
+2.4.
+Ổ cứng là 256 tính theo hệ số 1000
+-> ta được 256000000000 bytes
+đổi đơn vị lưu trữ theo hệ số 1024
+-> 256000000000/(1024^3)
+=>Học sinh còn 238.4GB - (1)
+Vậy dung lượng còn trống của ổ cứng là 94.5 
+2.5
+Tổng dung lượng bài hát: 500 x 5MB = 2500MB
+đổi dung lượng bài hát sang đơn vị GB 
+2500/1024 sấp sỉ 2.44GB
+=> 94.5 - 2.44 = 92.06
